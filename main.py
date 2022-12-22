@@ -86,7 +86,7 @@ class WebhookHandler(webapp2.RequestHandler):
         if text:
             #if text.startswith('@ccuem_bot'):
             #    text = text[11:]
-            if text.startswith('@PlayHangmanBot'):
+            if text.startswith('@btroadcastbot'):
                 text = text[15:]
             if not text.startswith('/admin'):
                 text = text.lower()
